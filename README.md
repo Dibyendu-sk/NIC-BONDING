@@ -12,4 +12,4 @@ It's main purpose is to provide high availability of bandwidth.
 - To list the bonding module info = modinfo bonding
 You will see the driver version as seen below if the driver is installed and loaded
 
-![App Screenshot](InkedCapture4_LI.jpg)
+![App Screenshot](InkedCapture4_LI.jpg/468x300)
