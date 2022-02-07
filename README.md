@@ -55,6 +55,8 @@ You will see the driver version as seen below if the driver is installed and loa
     HWADDR=”MAC from the ifconfig command for enp0s8 interface”<br />
     MASTER=bond0<br />
     SLAVE=yes<br />
-- Save and exit the file
+- Save and exit the file<br />
+
+#### Now we have to restart the NetworkManager and verify the results by using 'ifconfig' command
 
 
