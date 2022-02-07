@@ -20,7 +20,6 @@ You will see the driver version as seen below if the driver is installed and loa
 - Add the following parameters
 
     DEVICE=bond0
-
     TYPE=Bond
 
     NAME=bond0
