@@ -30,4 +30,8 @@ You will see the driver version as seen below if the driver is installed and loa
     GATEWAY=192.168.0.1<br />
     BONDING_OPTS=”mode=5 miimon=100”
 - Save and exit the file
+<br /><br />
+
+### Now we have to edit the first network adapter file(NIC file)
+
 
