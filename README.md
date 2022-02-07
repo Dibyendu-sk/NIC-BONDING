@@ -12,5 +12,5 @@ It's main purpose is to provide high availability of bandwidth.
 - To list the bonding module info = modinfo bonding
 You will see the driver version as seen below if the driver is installed and loaded
 
-<img src="https://github.com/Dibyendu-sk/NIC-BONDING/blob/main/InkedCapture4_LI.jpg" width="600" height="500" />
+<img src="https://github.com/Dibyendu-sk/NIC-BONDING/blob/main/InkedCapture4_LI.jpg" width="600" height="300" />
 
