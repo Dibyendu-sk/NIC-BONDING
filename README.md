@@ -33,5 +33,16 @@ You will see the driver version as seen below if the driver is installed and loa
 <br /><br />
 
 ### Now we have to edit the first network adapter file (ifcfg-enp0s3)
+- vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
+- Delete the entire content
+- Add the following parameters
+    DEVICE=enp0s3<br />
+    TYPE=Ethernet<br />
+    BOOTPROTO=none<br />
+    ONBOOT=yes<br />
+    HWADDR=”MAC from the ifconfig command”<br />
+    MASTER=bond0<br />
+    SLAVE=yes<br />
+- Save and exit the file<br />
 
 
