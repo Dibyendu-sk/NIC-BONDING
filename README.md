@@ -40,7 +40,7 @@ You will see the driver version as seen below if the driver is installed and loa
     TYPE=Ethernet<br />
     BOOTPROTO=none<br />
     ONBOOT=yes<br />
-    HWADDR=”MAC from the ifconfig command”<br />
+    HWADDR=”MAC from the ifconfig command for enp0s3 interface”<br />
     MASTER=bond0<br />
     SLAVE=yes<br />
 - Save and exit the file<br />
