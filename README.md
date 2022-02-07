@@ -19,23 +19,15 @@ You will see the driver version as seen below if the driver is installed and loa
 - vi /etc/sysconfig/network-scripts/ifcfg-bond0
 - Add the following parameters
 
-    DEVICE=bond0
-    TYPE=Bond
-
-    NAME=bond0
-
-    BONDING_MASTER=yes
-
-    BOOTPROTO=none
-
-    ONBOOT=yes
-
-    IPADDR=192.168.1.80
-
-    NETMASK=255.255.255.0
-
-    GATEWAY=192.168.1.1
-
+    DEVICE=bond0<br />
+    TYPE=Bond<br />
+    NAME=bond0<br />
+    BONDING_MASTER=yes<br />
+    BOOTPROTO=none<br />
+    ONBOOT=yes<br />
+    IPADDR=192.168.0.108<br />
+    NETMASK=255.255.255.0<br />
+    GATEWAY=192.168.0.1<br />
     BONDING_OPTS=”mode=5 miimon=100”
 - Save and exit the file
 
