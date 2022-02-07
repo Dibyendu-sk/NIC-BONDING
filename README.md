@@ -16,12 +16,6 @@ You will see the driver version as seen below if the driver is installed and loa
 <img src="https://github.com/Dibyendu-sk/NIC-BONDING/blob/main/InkedCapture4_LI.jpg" width="600" height="300" />
 
 ### Create bond interface file
-
-- Add a new NIC if it does not exist
-- Install bonding driver = modprobe bonding
-- To list the bonding module info = modinfo bonding
-You will see the driver version as seen below if the driver is installed and loaded
-
 - vi /etc/sysconfig/network-scripts/ifcfg-bond0
 - Add the following parameters
 
