@@ -32,7 +32,7 @@ You will see the driver version as seen below if the driver is installed and loa
 - Save and exit the file
 <br /><br />
 
-### Now we have to edit the first network adapter file (ifcfg-enp0s3)
+### Now we have to edit the first NIC File (enp0s3)
 - vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
 - Delete the entire content
 - Add the following parameters
@@ -44,5 +44,17 @@ You will see the driver version as seen below if the driver is installed and loa
     MASTER=bond0<br />
     SLAVE=yes<br />
 - Save and exit the file<br />
+
+### Now we have to Create the Second NIC File (enp0s8)
+- vi /etc/sysconfig/network-scripts/ifcfg-enp0s8
+- Add the following parameters
+    TYPE=Ethernet<br />
+    BOOTPROTO=none<br />
+    DEVICE=enp0s8<br />
+    ONBOOT=yes<br />
+    HWADDR=”MAC from the ifconfig command for enp0s8 interface”<br />
+    MASTER=bond0<br />
+    SLAVE=yes<br />
+- Save and exit the file
 
 
