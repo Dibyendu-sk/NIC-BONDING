@@ -62,10 +62,10 @@ You will see the driver version as seen below if the driver is installed and loa
 ## In the above shell script we have automate these processes
 #### Here are some screenshots
 
-<img src="https://github.com/Dibyendu-sk/NIC-BONDING/blob/main/InkedCapture2_LI.jpg" width="800" height="500" />
+<img src="https://github.com/Dibyendu-sk/NIC-BONDING/blob/main/InkedCapture2_LI.jpg" width="700" height="450" />
 <br /><br />
 
-<img src="https://github.com/Dibyendu-sk/NIC-BONDING/blob/main/Capture3.PNG" width="500" height="200" />
+<img src="https://github.com/Dibyendu-sk/NIC-BONDING/blob/main/Capture3.PNG" width="700" height="450" />
 
 
 
