@@ -12,4 +12,4 @@ It's main purpose is to provide high availability of bandwidth.
 - To list the bonding module info = modinfo bonding
 You will see the driver version as seen below if the driver is installed and loaded
 
-![App Screenshot](InkedCapture4_LI.jpg)
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://github.com/Dibyendu-sk/NIC-BONDING/blob/main/InkedCapture4_LI.jpg width="200" height="400" />
