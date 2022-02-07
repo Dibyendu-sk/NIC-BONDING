@@ -57,6 +57,9 @@ You will see the driver version as seen below if the driver is installed and loa
     SLAVE=yes<br />
 - Save and exit the file<br />
 
-#### Now we have to restart the NetworkManager and verify the results by using 'ifconfig' command
+#### Now we have to restart the NetworkManager and verify the results by using 'ifconfig' command.
+
+## In the above shell script we have automate these processes
+#### Here are some screenshots
 
 
