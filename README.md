@@ -32,6 +32,6 @@ You will see the driver version as seen below if the driver is installed and loa
 - Save and exit the file
 <br /><br />
 
-### Now we have to edit the first network adapter file(NIC file)
+### Now we have to edit the first network adapter file(ifcfg-enp0s3)
 
 
